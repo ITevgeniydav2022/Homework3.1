@@ -45,6 +45,33 @@ public class Main {
         if(deliveryDistance > 60 && deliveryDistance <= 100) {
             System.out.println(" Потребуется дней " + days3);
         }
+        // Задание 5
+        System.out.println("Задание 5");
+        int monthNumber = 6;
 
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Время года - Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Время года - Весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Время года - Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Время года - Осень");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
+        }
     }
 }
