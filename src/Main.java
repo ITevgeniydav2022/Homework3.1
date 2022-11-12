@@ -22,5 +22,14 @@ public class Main {
         } else if (clientOS1 > 0 && clientDeviceYear >= 2015) {
             System.out.println("Установите обычную версию приложения, для Android по ссылке");
         }
+        // Задание 3
+        System.out.println("Задание 3");
+        int year = 2021;
+        if(year % 4 == 0 && year % 100 != 0) {
+            System.out.println("Год вискосный");
+        } else {
+            System.out.println("Год не високосный");
+        }
+
     }
 }
